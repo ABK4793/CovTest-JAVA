@@ -1,4 +1,6 @@
 # SIG Integration Lab 1
+
+### Stashing into stash
 The goal of this lab is to provide hands on experience configuring a Polaris workflow in GitHub and viewing the results. As part of the lab, we will:
 - execute a full scan, viewing the results in the Polaris UI
 - break the build based on a policy defined in the Polaris UI
