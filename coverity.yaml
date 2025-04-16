@@ -3,6 +3,14 @@ capture:
     clean-command: mvn -B clean
     build-command: mvn -B -DskipTests package
 analyze:
+  aggressiveness-level: high
+  # location
+
   checkers:
+    all-security: true
+    audit: true
+    distrust-all: true
+    sigma:
+      enable-check-set: ["all"]
     webapp-security:
       enabled: true
