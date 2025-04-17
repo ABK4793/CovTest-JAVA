@@ -4,8 +4,7 @@ capture:
     build-command: mvn -B -DskipTests package
 
   files:
-    exclude-regex:
-      - ".*/NullReturnsExample\\.java$"
+    exclude-regex: ".*/NullReturnsExample\\.java$"
       
 analyze:
   aggressiveness-level: high
