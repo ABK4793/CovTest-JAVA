@@ -4,7 +4,7 @@ capture:
     build-command: mvn -B -DskipTests package
 analyze:
   aggressiveness-level: high
-  # location
+
 
   checkers:
     all-security: true
